@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+NZ:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"
+        integrity="sha512-yJHCxhu8pTR7P2UgXFrHvLMniOAL5ET1f5Cj+/dzl+JIlGTh5Cz+IeklcXzMavKvXP8vXqKMQyZjscjf3ZDfGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- main header -->
+        <header class="header-holder">
+            <!-- logo holder -->
+            <div class="logo-holder">
+                <span>Nature Dreams</span>
+            </div>
+            <!-- logo holder -->
+
+            <!-- search holder -->
+            <div class="search-holder">
+                <form action="#" method="get">
+                    <label for="search">
+                        <input type="search" name="s" id="search" placeholder="Search for..">
+                    </label>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <!-- search holder -->
+        </header>
+        <!-- main header -->
+        <!-- main menu -->
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="service.html" target="_blank">Services</a>
+                    <ul class="drop">
+                        <li><a href="#">Service One</a></li>
+                        <li><a href="#">Service Two</a></li>
+                        <li><a href="#">Service Three</a></li>
+                    </ul>
+                </li>
+                <li><a href="products.html">Product</a></li>
+                <li><a href="About.html" target="_blank">About</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- main menu -->
+
+            <!-- About-holder -->
+            <section class="about-holder">
+                <article class="about">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugiat obcaecati. Quaerat dolor molestiae repudiandae velit voluptas consequuntur repellendus iusto facilis est odit ullam ad corporis, accusamus impedit ut vel?</p>
+                    <p>Natus similique, ad quasi alias dolorem in consequuntur itaque harum quod ab qui, voluptatum adipisci, voluptatem voluptatibus labore eveniet? Reprehenderit quos maiores reiciendis similique esse modi, id doloribus quaerat natus!</p>
+                    <p>Veritatis atque consectetur perferendis dignissimos nihil necessitatibus repudiandae illum non accusantium, reiciendis alias debitis impedit iure incidunt doloremque rerum rem ipsam quidem quae praesentium enim! Ratione incidunt architecto quidem totam.</p>
+                    <p>Dolorem sit, maxime repellendus facere exercitationem eius minima modi dolore voluptas mollitia harum labore! Fugit adipisci consequatur accusantium sint cupiditate magni? Corrupti culpa impedit magnam in est pariatur voluptatum ullam?</p>
+                    <p>Qui doloribus animi similique laboriosam modi enim earum, vero quo quod sint, eligendi impedit facilis. Fuga rerum ipsa ducimus provident veritatis, consectetur eos odio ex? Nam ad perspiciatis eos aspernatur?</p>
+                    <p>Corrupti sit fugiat quo rem soluta possimus impedit, maiores debitis consequuntur aliquam praesentium omnis ullam earum repellendus. Ut quo assumenda non ullam in fuga, animi quibusdam sed possimus rem numquam.</p>
+                </article>
+            </section>
+            <!-- About-holder -->
+
+        <!-- footer widget holder -->
+        <section class="footer-widget-holder">
+            <div class="footer-widget">
+                <a href="#">
+                    <img src="./img/clipart.png" alt="logo" width="40px">
+                </a>
+                <h3>Address</h3>
+                <address>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis laudantium maiore.
+                </address>
+            </div>
+
+            <div class="footer-widget">
+                <h4>Site Map</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-widget">
+                <h4>Site Map</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-widget">
+                <h4>Site Map</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- footer widget holder -->
+        <!-- site footer -->
+        <footer class="site-footer">
+            <p><small>Copyright &copy; 2024</small></p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#adaptive').lightSlider({
+                adaptiveHeight: true,
+                item: 1,
+                slideMargin: 0,
+                loop: true
+            });
+        });
+    </script>
+</body>
+
+</html>
